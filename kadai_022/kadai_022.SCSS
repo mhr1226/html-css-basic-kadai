@@ -17,6 +17,7 @@ h2{
   border-bottom:3px dotted rgb(236, 122, 122);
   &::before{
     content:"●";
+    color:rgb(239, 111, 139);
   }
 }
 
