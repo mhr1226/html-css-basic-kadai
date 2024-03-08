@@ -120,8 +120,9 @@ h3{
   background-color: #fafafa;
   margin:80px 0 80px 0;
   padding:10px 40px 0 40px;
-  /*プロダクト内の４つのdivをまとめるdiv要素*/
+  
   > div{
+    /*プロダクト内の４つのdivをまとめるdiv要素*/
     margin-top:40px;
     display:flex;
   }
@@ -138,13 +139,15 @@ margin-right:20px;
 }
 }
 
-/*プロダクト右側のレイアウト*/
+/*プロダクト右側全体のレイアウト*/
 #product-right{
 width:50%;
 margin-left:20px;
 margin-top:80px;
 
+
 > div{
+  /*product-right内のdiv*/
   position:relative;
   height:480px;
   margin-left:20px;
@@ -156,6 +159,7 @@ margin-top:80px;
   width:100%;
 }
 
+/*画像下の文章レイアウト*/
 .product-explain{
   background-color: #ffffff;
   position:absolute;
@@ -184,6 +188,7 @@ margin-top:80px;
   
 }
 
+/*もっと見るの位置調整*/
 #product-more{
     margin:0 auto -42px auto;
   }
