@@ -192,3 +192,106 @@ margin-top:80px;
 #product-more{
     margin:0 auto -42px auto;
   }
+
+  /*ABOUT USのCSS*/
+  #aboutus{
+
+  margin:80px auto ;
+
+    > div{
+      display:flex;
+    }
+    
+  }
+
+  .culture-img{
+    width:100%;
+    align-self:flex-start;
+  }
+
+  .culture-img2{
+    margin-top:80px;
+    width:100%;
+  }
+
+  .culture-table{
+    margin-right:50px;
+  }
+
+  .culture-num{
+    font-size:80px;
+    color:#2710d5;
+    margin-right:20px;
+  }
+
+  .culture-en{
+    color:#2710d5;
+    font-size:24px;
+    font-weight:bold;
+    display:block;
+  }
+
+  .culture-jp{
+    font-size:28px;
+    font-weight:bold;
+  }
+
+  .culture-description{
+    margin:0;
+  }
+
+  #vision{
+    margin:80px auto;
+
+    > div{
+      width:100%;
+      display:flex;
+      justify-content:space-between;
+      flex-wrap:wrap;
+    }
+  }
+
+  .vision-box{
+    width:300px;
+    height:300px;
+    margin-bottom:30px;
+    position:relative;
+
+    > img{
+      width:100%;
+      height:auto;
+      position:absolute;
+      top:0;
+      left:0;
+      z-index:30;
+    }
+
+    > span{
+      position:absolute;
+      top:0;
+      left:0;
+      z-index:31;
+      margin-right:20px;
+
+      > h4{
+        color:#2710d5;
+        font-size:19px;
+        margin-top:80px;
+
+        &::first-letter{
+          font-size:40px;
+        }
+
+      }
+      
+
+        > h5{
+          font-size:20px;
+          margin:0;
+        }
+
+        > p{
+          margin-top:10px;
+        }
+    }
+  }
