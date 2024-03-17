@@ -331,3 +331,34 @@ margin-top:80px;
     border-top:1px solid #ececec;
     @extend .cell;
   }
+
+  #contact{
+    margin:80px auto;
+
+    > form{
+      > div{
+        display:flex;
+        flex-flow:row wrap;
+        padding-bottom:30px;
+      }
+    }
+  }
+
+  .contact-heading{
+    width:240px;
+    align-self:center;
+  }
+
+  .contact-label{
+    font-weight:bold;
+  }
+
+  .contact-span{
+    color:#ce2222;
+    margin-left:20px;
+    font-weight:bold;
+  }
+
+  .contact-text-box{
+  
+  }

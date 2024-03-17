@@ -306,4 +306,28 @@ h3 {
 .cell-first {
   border-top: 1px solid #ececec;
 }
+
+#contact {
+  margin: 80px auto;
+}
+#contact > form > div {
+  display: flex;
+  flex-flow: row wrap;
+  padding-bottom: 30px;
+}
+
+.contact-heading {
+  width: 240px;
+  align-self: center;
+}
+
+.contact-label {
+  font-weight: bold;
+}
+
+.contact-span {
+  color: #ce2222;
+  margin-left: 20px;
+  font-weight: bold;
+}
 /*# sourceMappingURL=style.SCSS.css.map */
