@@ -359,6 +359,16 @@ margin-top:80px;
     font-weight:bold;
   }
 
-  .contact-text-box{
-  
+  .contact-textbox{
+  border:0;
+  border-bottom:1px solid #707070;
+  background-color:#fafafa;
+  width:400px;
+  height:56px;
+
+  }
+
+  .contact-textarea{
+  @extend .contact-textbox;
+    height:200px;
   }
