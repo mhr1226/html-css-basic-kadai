@@ -342,4 +342,15 @@ h3 {
 .contact-textarea {
   height: 200px;
 }
+
+details {
+  width: 700px;
+}
+details > div {
+  background-color: #fafafa;
+  padding: 20px;
+}
+details > div > span {
+  font-weight: bold;
+}
 /*# sourceMappingURL=style.SCSS.css.map */

@@ -372,3 +372,15 @@ margin-top:80px;
   @extend .contact-textbox;
     height:200px;
   }
+
+  details{
+    width:700px;
+
+    > div{
+      background-color:#fafafa;
+      padding:20px;
+      > span{
+        font-weight:bold;
+      }
+    }
+  }
