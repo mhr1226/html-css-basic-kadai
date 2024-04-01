@@ -8,6 +8,9 @@ p{
 }
 
 /*PC用のスタイル*/
+
+@media screen and (min-width:768px){
+
 body{
   max-width: 1080px;
   min-width:960px;
@@ -429,3 +432,11 @@ margin-top:80px;
     color:#ffffff;
     float:right;
   }
+  /*ここまでがPC用*/
+}
+
+/*スマホ用のスタイル*/
+
+@media screen and (max-width:767px){
+  
+}
