@@ -439,4 +439,16 @@ margin-top:80px;
 
 @media screen and (max-width:767px){
   
+  body{
+    min-width:375px;
+    margin:0;
+  }
+  #nav-pc{
+    display:none;
+  }
+
+  #menu-sp{
+    float:right;
+    padding:0;
+  }
 }

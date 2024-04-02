@@ -357,4 +357,17 @@ p {
   /*ここまでがPC用*/
 }
 /*スマホ用のスタイル*/
+@media screen and (max-width: 767px) {
+  body {
+    min-width: 375px;
+    margin: 0;
+  }
+  #nav-pc {
+    display: none;
+  }
+  #menu-sp {
+    float: right;
+    padding: 0;
+  }
+}
 /*# sourceMappingURL=style.SCSS.css.map */
