@@ -451,4 +451,25 @@ margin-top:80px;
     float:right;
     padding:0;
   }
+
+  #nav-sp{
+    background-color:#2710d5;
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    display:none;
+    z-index:100;
+  }
+
+  #close{
+    position:absolute;
+    top:20px;
+    right:20px;
+  }
+
+  #logo-sp{
+    margin:80px 0 30px 20px;
+  }
 }
