@@ -472,4 +472,39 @@ margin-top:80px;
   #logo-sp{
     margin:80px 0 30px 20px;
   }
+
+  #nav-sp{
+    > a{
+      display:block;
+
+      &:link{
+        color:#ffffff;
+      }
+      &:visited{
+        color:#ffffff;
+      }
+      &:hover{
+        color:#ffffff;
+        text-decoration:underline;
+      }
+      &:active{
+        color:#ffffff;
+      }
+
+      
+    }
+    
+    > .menu{
+        text-decoration:none;
+        display:block;
+        margin:0 20px;
+        height:44px;
+        font-size:16px;
+        /*↓画像に対してのプロパティ*/
+        background-image:url(../images/arrow.png);
+        background-repeat:no-repeat;
+        background-position:right;
+        /*ここまで*/
+      }
+  }
 }

@@ -387,5 +387,33 @@ p {
   #logo-sp {
     margin: 80px 0 30px 20px;
   }
+  #nav-sp > a {
+    display: block;
+  }
+  #nav-sp > a:link {
+    color: #ffffff;
+  }
+  #nav-sp > a:visited {
+    color: #ffffff;
+  }
+  #nav-sp > a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  #nav-sp > a:active {
+    color: #ffffff;
+  }
+  #nav-sp > .menu {
+    text-decoration: none;
+    display: block;
+    margin: 0 20px;
+    height: 44px;
+    font-size: 16px;
+    /*↓画像に対してのプロパティ*/
+    background-image: url(../images/arrow.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    /*ここまで*/
+  }
 }
 /*# sourceMappingURL=style.SCSS.css.map */
