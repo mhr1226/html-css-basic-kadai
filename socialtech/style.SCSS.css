@@ -40,6 +40,11 @@ p {
   #nav-pc a:active {
     color: #0d0d0d;
   }
+  /*スマホナビの非表示*/
+  #nav-sp,
+#menu-sp {
+    display: none;
+  }
   #main-visual {
     position: relative;
     height: 400px;
@@ -422,6 +427,28 @@ p {
   }
   #sns > a {
     margin-right: 30px;
+  }
+  #main-visual {
+    position: relative;
+    height: 470px;
+    width: 100%;
+    overflow: hidden;
+  }
+  #main-visual > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #2710d5;
+    color: white;
+    border-radius: 0 0 476px 0;
+    text-align: center;
+    height: 280px;
+    width: 100%;
+    z-index: 11;
+  }
+  h1 {
+    font-size: 28px;
+    margin-top: 90px;
   }
 }
 /*# sourceMappingURL=style.SCSS.css.map */
