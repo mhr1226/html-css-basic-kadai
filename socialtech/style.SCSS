@@ -507,4 +507,14 @@ margin-top:80px;
         /*ここまで*/
       }
   }
+
+  #sns{
+    position:absolute;
+    bottom:20px;
+    left:20px;
+
+    > a{
+      margin-right:30px;
+    }
+  }
 }

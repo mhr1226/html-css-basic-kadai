@@ -415,5 +415,13 @@ p {
     background-position: right;
     /*ここまで*/
   }
+  #sns {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+  #sns > a {
+    margin-right: 30px;
+  }
 }
 /*# sourceMappingURL=style.SCSS.css.map */
