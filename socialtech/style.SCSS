@@ -55,6 +55,14 @@ header{
 #main-visual{
   position:relative;
   height: 400px;
+
+  > div{
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:#2710d5;
+    color:white;
+  }
   & img{
     max-width:620px;
     border-radius:476px 0 0 0;
@@ -541,11 +549,27 @@ margin-top:80px;
       height:280px;
       width:100%;
       z-index:11;
-    }
-  }
-
-  h1{
+      
+      
+      > h1{
     font-size:28px;
     margin-top:90px;
   }
+
+    > p{
+      margin:0;
+    }
+    }
+
+      > img{
+        width:100%;
+        border-radius:476px 0 0 0;
+        z-index:10;
+        position:absolute;
+        bottom:0;
+        right:0;
+      }
+  }
+
+
 }

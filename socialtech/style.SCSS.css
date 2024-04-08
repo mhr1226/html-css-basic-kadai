@@ -49,6 +49,13 @@ p {
     position: relative;
     height: 400px;
   }
+  #main-visual > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #2710d5;
+    color: white;
+  }
   #main-visual img {
     max-width: 620px;
     border-radius: 476px 0 0 0;
@@ -446,9 +453,20 @@ p {
     width: 100%;
     z-index: 11;
   }
-  h1 {
+  #main-visual > div > h1 {
     font-size: 28px;
     margin-top: 90px;
+  }
+  #main-visual > div > p {
+    margin: 0;
+  }
+  #main-visual > img {
+    width: 100%;
+    border-radius: 476px 0 0 0;
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 }
 /*# sourceMappingURL=style.SCSS.css.map */
