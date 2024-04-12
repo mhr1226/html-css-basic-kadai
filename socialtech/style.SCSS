@@ -608,5 +608,38 @@ margin-top:80px;
       #product-left,
       #product-right{
         margin:0 20px;
+
+        > div{
+          position:relative;
+          height:540px;
+        }
+      }
+
+      .product-explain{
+        background-color:#ffffff;
+        position:absolute;
+        left:0;
+        bottom:50px;
+        padding:20px;
+        box-shadow:5px 5px 10px rgba(0, 0, 0, 0.05);
+        
+        > span{
+          color:#2710d5;
+          font-size:bold;
+          font-size:16px;
+          margin:0;
+        }
+
+        > h3{
+          margin:10px 0;
+        }
+      }
+
+      .product-photo{
+        width:100%;
+      }
+
+      #product-more > img{
+        margin:0 0 -42px 20px;
       }
 }

@@ -500,5 +500,33 @@ p {
 #product-right {
     margin: 0 20px;
   }
+  #product-left > div,
+#product-right > div {
+    position: relative;
+    height: 540px;
+  }
+  .product-explain {
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+  }
+  .product-explain > span {
+    color: #2710d5;
+    font-size: bold;
+    font-size: 16px;
+    margin: 0;
+  }
+  .product-explain > h3 {
+    margin: 10px 0;
+  }
+  .product-photo {
+    width: 100%;
+  }
+  #product-more > img {
+    margin: 0 0 -42px 20px;
+  }
 }
 /*# sourceMappingURL=style.SCSS.css.map */
