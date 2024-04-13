@@ -271,20 +271,33 @@ p {
   #company-table {
     width: 100%;
   }
-  .tableheader, .tableheader-first {
+  .tableheader {
     text-align: left;
     padding: 20px;
     border-bottom: 1px solid #2710d5;
     width: 100px;
   }
   .tableheader-first {
+    text-align: left;
+    padding: 20px;
+    border-bottom: 1px solid #2710d5;
+    width: 100px;
     border-top: 1px solid #2710d5;
   }
-  .cell, .cell-first {
+  /*@extendを使う時は、レスポンシブ化する際
+  全く同じクラス名を使う為、
+  重複する可能性有
+  レスポンシブ化の場合は、
+  コピペでOK
+  （スマホの時にPCのCSSが適用されない為）
+  色々試したけど手間がかかるだけ・・・*/
+  .cell-pc {
     padding: 30px;
     border-bottom: 1px solid #ececec;
   }
   .cell-first {
+    padding: 30px;
+    border-bottom: 1px solid #ececec;
     border-top: 1px solid #ececec;
   }
   #contact {
@@ -307,7 +320,7 @@ p {
     margin-left: 20px;
     font-weight: bold;
   }
-  .contact-textbox, .contact-textarea {
+  .contact-textbox {
     border: 0;
     border-bottom: 1px solid #707070;
     background-color: #fafafa;
@@ -315,6 +328,10 @@ p {
     height: 56px;
   }
   .contact-textarea {
+    border: 0;
+    border-bottom: 1px solid #707070;
+    background-color: #fafafa;
+    width: 400px;
     height: 200px;
   }
   details {
@@ -366,8 +383,8 @@ p {
     color: #ffffff;
     float: right;
   }
-  /*ここまでがPC用*/
 }
+/*ここまでがPC用*/
 /*スマホ用のスタイル*/
 @media screen and (max-width: 767px) {
   body {
@@ -453,7 +470,8 @@ p {
     height: 280px;
     width: 100%;
     /*重なり具合を調整する為のもの
-    ブロック要素で並び順を変えたいならorderプロパティで*/
+    ブロック要素で並び順を変えたいなら
+    orderプロパティで*/
     z-index: 11;
   }
   #main-visual > div > h1 {
@@ -602,6 +620,42 @@ p {
   }
   .vision-box > span > p {
     margin-top: 10px;
+  }
+  #company {
+    margin: 0 20px;
+  }
+  #company > h3 {
+    margin-bottom: 20px;
+  }
+  #company > table {
+    width: 100%;
+  }
+  #company > iframe {
+    width: 100%;
+    height: 240px;
+    margin: 40px 0 0 0;
+  }
+  .tableheader {
+    text-align: left;
+    padding: 20px;
+    border-bottom: 1px solid #2710d5;
+    width: 50px;
+  }
+  .tableheader-first {
+    text-align: left;
+    padding: 20px;
+    border-bottom: 1px solid #2710d5;
+    border-top: 1px solid #2710d5;
+    width: 50px;
+  }
+  .cell {
+    padding: 20px;
+    border-bottom: 1px solid #ececec;
+  }
+  .cell-first {
+    padding: 20px;
+    border-bottom: 1px solid #ececec;
+    border-top: 1px solid #ececec;
   }
 }
 /*# sourceMappingURL=style.SCSS.css.map */
