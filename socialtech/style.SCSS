@@ -687,5 +687,52 @@ margin-top:80px;
         margin:0;
       }
 
-      
+      #vision{
+        margin:80px 20px; 
+      }
+
+      .vision-box{
+        width:300px;
+        height:300px;
+        margin-bottom:30px;
+        position:relative;
+
+        > img{
+          /*画像の調整ではwidth:100%をする事で
+          幅の調整を行う
+          or overflow:hidden;で
+          はみ出ないようにするのも有*/
+          width:100%;
+          height:auto;
+          position:absolute;
+          top:0;
+          left:0;
+          z-index:30;
+        }
+
+        > span{
+          position:absolute;
+          top:0;
+          left:0;
+          z-index:31;
+          margin-right:20px;
+
+          > h4{
+            color:#2710d5;
+            font-size:19px;
+            margin-top:60px;
+          }
+
+          > h5{
+            font-size:20px;
+            margin:0;
+          }
+
+          > p{
+            margin-top:10px;
+          }
+        }
+      }
+
+
 }
