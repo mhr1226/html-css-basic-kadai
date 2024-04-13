@@ -642,4 +642,50 @@ margin-top:80px;
       #product-more > img{
         margin:0 0 -42px 20px;
       }
+
+      #aboutus{
+        margin:80px 20px;
+
+        > div{
+          display:flex;
+          flex-direction:column;
+        }
+      }
+
+      .culture-table{
+        width:100%;
+        padding-right:20px;
+        order:2;
+      }
+
+      .culture-img{
+        width:100%;
+        order:1;
+      }
+
+      .culture-img2{
+        width:100%;
+      }
+
+      .culture-num{
+        font-size:80px;
+        color:#2710d5;
+      }
+
+      .culture-en{
+        color:#2710d5;
+        font-weight:bold;
+        font-size:24px;
+        display:block;
+      }
+
+      .culture-jp{
+        display:block;
+      }
+
+      .culture-description{
+        margin:0;
+      }
+
+      
 }
