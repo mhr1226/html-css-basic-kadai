@@ -880,4 +880,58 @@ margin-top:80px;
       
       a,bは全ての要素に適用される
       両社は混同しやすいから要注意*/
+
+      footer{
+        background-color: #0d0d0d;
+        padding:30px 20px 50px 20px;
+      }
+
+      #footer-logo{
+        margin-bottom:30px;
+      }
+
+      #footer-link{
+        margin-bottom:50px;
+
+        > a{
+          text-decoration:none;
+          margin:0 20px 30px 0;
+          display:block;
+          background-image:url(../images/arrow.png);
+          background-repeat:no-repeat;
+          background-position:right top;
+          
+          &:link{
+            color:#ffffff;
+          }
+
+          &:visited{
+            color:#ffffff;
+          }
+
+          &:hover{
+            color:#ffffff;
+            text-decoration:underline;
+          }
+
+          &:active{
+            color:#ffffff;
+          }
+        }
+      }
+
+      #sns-footer{
+
+        > a{
+          margin-right:30px;
+        }
+
+      }
+
+      #copyright{
+        font-size:12px;
+        display:block;
+        margin-top:30px;
+        color:#ffffff;
+      }
 }
