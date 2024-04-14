@@ -635,6 +635,13 @@ p {
     height: 240px;
     margin: 40px 0 0 0;
   }
+  /*PC用のCSSをスマホ用でも流用したいなら
+  、class or id要素を2種類作っておき、
+  スマホ用で独自の設定をしたい時は
+  スマホ用のクラスで上書きするようにする
+
+  ※メディアクエリをPC,スマホいずれかにしか適用
+  しない場合に限る*/
   .tableheader {
     text-align: left;
     padding: 20px;
@@ -657,5 +664,72 @@ p {
     border-bottom: 1px solid #ececec;
     border-top: 1px solid #ececec;
   }
+  #contact {
+    margin: 80px 20px;
+  }
+  #contact > h3 {
+    margin-bottom: 20px;
+  }
+  #contact > form > div {
+    margin-bottom: 20px;
+  }
+  .contact-heading {
+    margin-bottom: 20px;
+  }
+  .contact-label {
+    font-weight: bold;
+  }
+  .contact-span {
+    color: #ce2222;
+    margin: 20px;
+    font-weight: bold;
+  }
+  .contact-textbox {
+    height: 56px;
+    border: 0 #fafafa;
+    border-bottom: 1px solid #707070;
+    min-width: 300px;
+    width: 100%;
+  }
+  .contact-textarea {
+    height: 150px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: #fafafa;
+    width: 100%;
+  }
+  .radiobutton {
+    margin-bottom: 20px;
+  }
+  /*content:"\A";
+        + white-space:pre;
+        でHTML及びCSSでの改行が
+        ページ上で保持されるようになる。
+
+        HTMLでの例：
+        <pre>
+      This is
+      a    preformatted
+      text.
+  </pre>
+  このような記述は本来スペース1個分しか
+  認識されないが、
+  上記のCSSを適用すると
+  記述したそのままで表示が出来る
+  */
+  .radiobutton + label::after {
+    content: "\a";
+    white-space: pre;
+  }
+  /*CSSでまとめて記述したい時
+
+  a+bはaと隣合わせになる要素bに
+  対して適用する
+
+
+
+  a,bは全ての要素に適用される
+  両社は混同しやすいから要注意*/
 }
 /*# sourceMappingURL=style.SCSS.css.map */
