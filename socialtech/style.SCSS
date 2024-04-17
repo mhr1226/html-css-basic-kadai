@@ -524,6 +524,49 @@ margin-top:80px;
     }
   }
 
+  #mission-5goals{
+    margin:20px;
+    display:flex;
+
+    > div{
+      flex-grow:1;
+      padding:20px;
+
+      > div{
+        margin-bottom:40px;
+      }
+    }
+
+    
+  }
+  
+  .fivegoals-image-right{
+      float:right;
+      margin:20px;
+    }
+
+    .fivegoals-image-left{
+      float:left;
+      margin:20px;
+    }
+
+    .fivegoals-number{
+      color:#2710d5;
+      font-size:48px;
+      margin:0;
+    }
+
+    .fivegoals-h3{
+      font-size:28px;
+      margin:0;
+    }
+
+    .fivegoals-p{
+      margin:0;
+    }
+
+
+
 }
   /*ここまでがPC用*/
 
