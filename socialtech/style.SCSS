@@ -1234,6 +1234,45 @@ margin-top:80px;
               margin:0;
             }
 
-            
+            /*プロダクト：スマホ用CSS*/
 
+            #product-main{
+              height:256px;
+              width:100%;
+              background-image:
+              url(../images/product/product-main.png);
+              background-repeat:no-repeat;
+              background-position-y:center;
+              background-size:auto 208px;
+            }
+
+              #product-title{
+                background-color:#2710d5;
+                width:136px;
+                color:#ffffff;
+                height:256px;
+                border-radius:0 248px 248px 0;
+                position:relative;
+
+                > h1{
+                  position:absolute;
+                  top:0;
+                  left:20px;
+                  font-size:40px;
+                }
+
+                > span{
+                  position:absolute;
+                  top:110px;
+                  left:20px;
+                  font-size:18px;
+                }
+
+                > div{
+                  position:absolute;
+                  top:180px;
+                  left:20px;
+                  font-size:13px;
+                }
+              }
 }
