@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*PC・スマホ共通スタイル*/
 body {
-  font-family: "Source Suns Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
 }
 
 p {
@@ -698,7 +698,7 @@ p {
   }
   .product-explain > span {
     color: #2710d5;
-    font-size: bold;
+    font-weight: bold;
     font-size: 16px;
     margin: 0;
   }
@@ -1047,6 +1047,30 @@ p {
     top: 180px;
     left: 20px;
     font-size: 13px;
+  }
+  .product-section1 {
+    margin: 20px;
+  }
+  .product-section1 > img {
+    width: 100%;
+    border-radius: 0 300px 0 0;
+  }
+  .product-section2 {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .product-section2 > img {
+    order: 1;
+    width: 100%;
+    border-radius: 300px 0 0 0;
+  }
+  .product-section2 > div {
+    order: 2;
+  }
+  .product-h2 {
+    font-size: 28px;
+    margin: 0;
   }
 }
 /*# sourceMappingURL=style.SCSS.css.map */
